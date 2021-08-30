@@ -1,1 +1,3 @@
-// Test text
+module.exports = {
+  Workout: require("./workout"),
+};

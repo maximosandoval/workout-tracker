@@ -1,7 +1,7 @@
 <!-- Insert Images
 ![Inset Image Name and it will auto place in readme file](Insert the github link starting with https://github...) -->
 
-# Workout Tracker
+# Workout App
 
 One Paragraph of the project description
 
