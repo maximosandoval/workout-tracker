@@ -1,97 +1,44 @@
-<!-- Insert Images
-![Inset Image Name and it will auto place in readme file](Insert the github link starting with https://github...) -->
-
 # Workout App
 
-One Paragraph of the project description
+Track the progress of your workouts quickly, easily, and effectively with this workout app. Built on a MongoDB with an express route handler this app enables an end user to view, input, and track workouts. The end iuser is also able to see an overall picture with visual graphs and charts. Its easy to log the workout information and track the type of excercise the end user is doing.
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+- Heroku Link: [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- Installation
+- Usage
 
-## Getting Started
+## User Story
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+The end user is able to create, monitor, and track workouts based on reps, weight, distance, and duration of the excercise.
 
-### Prerequisites
+## Install
 
-Requirements for the software and other tools to build, test and push
+Run the following line of code in your terminal to install the necessary packages.
 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+    npm i
 
-### Installing
+Seed the database with the following:
 
-A step by step series of examples that tell you how to get a development
-environment running
+    npm run seed
 
-Say what the step will be
+## Usage
 
-    Give the example
+Open your terminal and run the following:
 
-And repeat
+    node server
 
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Sample Tests
-
-Explain what these tests test and why
-
-    Give an example
-
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
+Your localhost runs on 3001. Once you run 3001 you will see the workout app in the browser window.
 
 ## Built With
 
-- [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-  for the Code of Conduct
-- [Creative Commons](https://creativecommons.org/) - Used to choose
-  the license
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Express
+- Mongoose
+- Node.js
 
-## Contributing
+## Images
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Authors
-
-- **Billie Thompson** - _Provided README Template_ -
-  [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code is used
-- Inspiration
-- etc
+<!-- Insert Images
+![Inset Image Name and it will auto place in readme file](Insert the github link starting with https://github...) -->
