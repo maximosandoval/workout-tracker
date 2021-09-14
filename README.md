@@ -40,5 +40,6 @@ Your localhost runs on 3001. Once you run 3001 you will see the workout app in t
 
 ## Images
 
-<!-- Insert Images
-![Inset Image Name and it will auto place in readme file](Insert the github link starting with https://github...) -->
+[module-18-1.png]
+[module-18-2.png]
+[module-18-3.png]
