@@ -10,7 +10,7 @@ const router = express.Router();
 const Workout = require("../models/Workout.js");
 
 // Add exercises PUT
-router.put("/api/workouts/:id", async (req, res) => {
+router.put("/workouts/:id", async (req, res) => {
   try {
     const addExercise = await Workout.findByIdAndUpdate(
       req.params.id,
@@ -28,7 +28,7 @@ router.put("/api/workouts/:id", async (req, res) => {
 });
 
 // Add new exercises POST
-router.post("/api/workouts", async (req, res) => {
+router.post("/workouts", async (req, res) => {
   try {
     const createWorkout = await Workout.create(req.body);
     res.json(createWorkout);
@@ -38,7 +38,7 @@ router.post("/api/workouts", async (req, res) => {
 });
 
 // View combined weight GET
-router.get("/api/workouts", async (req, res) => {
+router.get("/workouts", async (req, res) => {
   try {
     const totalDuration = await Workout.aggregate([
       {
@@ -54,7 +54,7 @@ router.get("/api/workouts", async (req, res) => {
 });
 
 // View total duration GET
-router.get("/api/workouts/range", async (req, res) => {
+router.get("/workouts/range", async (req, res) => {
   // console.log('route hit')
   try {
     const totalDuration = await Workout.aggregate([
